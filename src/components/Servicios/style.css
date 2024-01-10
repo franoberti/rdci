@@ -1,6 +1,6 @@
 .serviciosContainer {
     text-align: center;
-    padding: 20px;
+    padding: 5rem 2rem;
     background-color: #f0f0f0;
     /* Color de fondo para diferenciar el componente de servicios */
 }
@@ -11,10 +11,7 @@
     margin-bottom: 20px;
     border-left: none !important;
     text-align: center;
-    /* Agrega un borde izquierdo celeste */
     padding-left: 10px;
-    /* Espaciado del borde izquierdo */
-    /* Alinea el título a la izquierda */
 }
 
 .sectionSubtitle {
@@ -22,7 +19,6 @@
     margin-bottom: 20px;
     text-align: left;
     font-style: italic;
-    /* Alinea el subtítulo a la izquierda */
 }
 
 .sectionParagraph {

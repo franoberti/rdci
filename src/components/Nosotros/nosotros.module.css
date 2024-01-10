@@ -1,14 +1,17 @@
-
-
 .nosotrosContainer {
     text-align: center;
     padding: 2rem;
     background-color: #ffffff;
-    /* Color de fondo para diferenciar el componente Nosotros */
+}
+
+.containerPersona {
+    display: grid;
+    place-items: center;
 }
 
 .imagenRow {
     display: flex;
+    align-items: flex-start;
     justify-content: center;
     margin-bottom: 20px;
     padding-top: 30px;
@@ -20,17 +23,17 @@
     max-width: 400px;
     text-align: center;
     /* Otros estilos según sea necesario para el subtítulo */
-  }
+}
 
 .imagenWrapper {
     display: flex;
-    align-items: center;
     text-align: center;
     margin: 10px 15px;
     padding: 10px 15px;
+    max-height: 300px;
 }
 
-.imagenNombre{
+.imagenNombre {
     text-align: center;
 }
 
@@ -47,9 +50,11 @@
     max-width: 400px;
     text-align: justify;
     margin-top: 0;
+    overflow: visible;
     /* Otros estilos según sea necesario para la descripción */
 }
 
 .descripcionImagen p {
-    margin-bottom: 5px; /* Ajusta según sea necesario para el espacio entre párrafos */
-  }
+    margin-bottom: 5px;
+    /* Ajusta según sea necesario para el espacio entre párrafos */
+}

@@ -1,35 +1,35 @@
 import React from 'react'
-import './style.css'
+import styles from './navbar.module.css'
 
 const NavBar = () => {
 
   return (
-    <>
-      <div className='navBar'>
+    <div className={`${styles.navBar}`}>
+      <div className={`container`}>
 
-        <div className='container'>
-          <div className='d-flex'>
-            <a className='logo text-primary' >Red De Consultoría Interdisciplinaria</a>
-            <div className='col-2'></div>
-            <div className='col-4 d-flex align-items-center justify-content-between'>
-              <div class="itemNav">
-                <a className='itemNavText' href="#razonDeSer">Razon de Ser</a>
-              </div>
-              <div class="itemNav">
-                <a className='itemNavText' href="#servicios">Servicios</a>
-              </div>
-              <div class="itemNav">
-                <a className='itemNavText' href="#nosotros">Nosotros</a>
-              </div>
-
+        <div className={`d-flex`}>
+          
+          <a className={`${styles.logo} text-primary`}>Red De Consultoría Interdisciplinaria</a>
+          <div className='col-2'></div>
+          
+          <div className='col-4 d-flex align-items-center justify-content-between'>
+            <div className={`${styles.itemNav}`}>
+              <a className={`${styles.itemNavText}`} href="#razonDeSer">Razon de Ser</a>
+            </div>
+            <div className={`${styles.itemNav}`}>
+              <a className={`${styles.itemNavText}`} href="#servicios">Servicios</a>
+            </div>
+            <div className={`${styles.itemNav}`}>
+              <a className={`${styles.itemNavText}`} href="#nosotros">Nosotros</a>
             </div>
 
           </div>
-
+        
         </div>
 
       </div>
-    </>
+
+    </div>
 
   )
 }

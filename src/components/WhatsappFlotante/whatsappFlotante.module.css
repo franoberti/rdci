@@ -1,0 +1,24 @@
+.wppFijo {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    color: #fefefe;
+    line-height: 60px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+    background-color: #4FCE5D;
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    z-index: 3;
+}
+
+.wppLogo {
+    height: 40px;
+    width: 40px;
+    content: "\f232";
+    color: white;
+}

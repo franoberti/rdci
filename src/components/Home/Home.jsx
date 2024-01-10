@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../NavBar/NavBar'
 import Servicios from '../Servicios/Servicios'
 import Nosotros from '../Nosotros/Nosotros'
+import WhatsappFlotante from '../WhatsappFlotante/WhatsappFlotante'
 import './style.css'
 
 const Home = () => {
@@ -13,7 +14,7 @@ const Home = () => {
 
         <div className="background" >
 
-          <Navbar className={"fixed-top"} />
+          <Navbar/>
 
           <div className="centeredDivContainer">
             <div className="centeredDiv">
@@ -48,6 +49,8 @@ const Home = () => {
       <div id='nosotros'>
         <Nosotros />
       </div>
+
+      <WhatsappFlotante/>
 
     </>
 
