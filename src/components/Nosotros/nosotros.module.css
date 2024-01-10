@@ -1,0 +1,55 @@
+
+
+.nosotrosContainer {
+    text-align: center;
+    padding: 2rem;
+    background-color: #ffffff;
+    /* Color de fondo para diferenciar el componente Nosotros */
+}
+
+.imagenRow {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+
+.subtituloImagen {
+    font-size: 36px;
+    margin-bottom: 10px;
+    max-width: 400px;
+    text-align: center;
+    /* Otros estilos según sea necesario para el subtítulo */
+  }
+
+.imagenWrapper {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px 15px;
+    padding: 10px 15px;
+}
+
+.imagenNombre{
+    text-align: center;
+}
+
+.imagenRedonda {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.descripcionImagen {
+    font-size: 17px;
+    margin-left: 50px;
+    max-width: 400px;
+    text-align: justify;
+    margin-top: 0;
+    /* Otros estilos según sea necesario para la descripción */
+}
+
+.descripcionImagen p {
+    margin-bottom: 5px; /* Ajusta según sea necesario para el espacio entre párrafos */
+  }

@@ -1,0 +1,55 @@
+.serviciosContainer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+    /* Color de fondo para diferenciar el componente de servicios */
+}
+
+.sectionTitleService {
+    font-family: "Tw Cen MT Condensed", sans-serif;
+    font-size: 65px;
+    margin-bottom: 20px;
+    border-left: none !important;
+    text-align: center;
+    /* Agrega un borde izquierdo celeste */
+    padding-left: 10px;
+    /* Espaciado del borde izquierdo */
+    /* Alinea el título a la izquierda */
+}
+
+.sectionSubtitle {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-style: italic;
+    /* Alinea el subtítulo a la izquierda */
+}
+
+.sectionParagraph {
+    font-size: 25px;
+    /* Otros estilos según sea necesario */
+}
+
+.imagenesContainer {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top: 20px; /* Ajusta según sea necesario */
+  }
+  
+  .imagenWrapper {
+    text-align: center;
+  }
+  
+  .imagenRedonda {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px; /* Espaciado entre la imagen y la descripción */
+  }
+  
+  .descripcionImagen {
+    max-width: 200px;
+    font-size: 20px;
+    /* Otros estilos según sea necesario para la descripción */
+  }

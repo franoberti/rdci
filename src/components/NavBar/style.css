@@ -1,0 +1,55 @@
+
+
+/* LAS MIAS */
+
+.navBar{
+    background-color: #ffffff !important;
+    height: 5rem;
+    max-height: 5rem;
+    position: relative;
+    z-index: 2;
+}
+
+.navigation {
+    display: flex;
+    align-items: center !important;
+}
+
+
+
+.itemNav {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.itemNavText {
+    font-size: 13px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #3c4858;
+    font-family: "Nunito", sans-serif;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.itemNavText:hover{
+    color: #000;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.logo{
+    color: #3c4858 !important;
+    
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 3px 0;
+    letter-spacing: 1px;
+    line-height: 68px;
+}

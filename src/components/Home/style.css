@@ -1,0 +1,93 @@
+.backgroundContainer {
+    position: relative;
+    height: 100vh;
+}
+
+.background {
+    background-image: url('../../assets/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.centeredDivContainer {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    /* Ajusta según sea necesario */
+}
+
+.centeredDiv {
+    width: 840px;
+    height: 320px;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 3rem;
+    /* Estilos adicionales según sea necesario */
+}
+
+.title {
+    color: white;
+    font-family: "Tw Cen MT Condensed", sans-serif;
+    font-size: 65px;
+    margin: 0;
+}
+
+.line {
+    height: 2px;
+    background-color: #04c0d5;
+    margin: 10px 0;
+}
+
+.subtitle {
+    color: white;
+    font-size: 45px;
+    margin: 0;
+
+}
+
+#razonDeSer {
+    text-align: center;
+    padding: 2rem;
+    /* Ajusta según sea necesario */
+}
+
+.sectionContainer {
+    text-align: center;
+    padding: 20px;
+    z-index: 2;
+    /* Asegúrate de que el sectionContainer tenga un z-index mayor que el background */
+    position: relative;
+    /* Asegúrate de que el sectionContainer tenga posición relativa */
+}
+
+.sectionTitle {
+    font-family: "Tw Cen MT Condensed", sans-serif;
+    font-size: 65px;
+    margin-bottom: 20px;
+    text-align: left;
+    border-left: 3px solid #04c0d5;
+    /* Agrega un borde izquierdo celeste */
+    padding-left: 10px;
+    /* Espaciado del borde izquierdo */
+    /* Alinea el título a la izquierda */
+}
+
+.sectionSubtitle {
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: left;
+    font-style: italic;
+    /* Alinea el subtítulo a la izquierda */
+}
+
+.sectionParagraph {
+    font-size: 25px;
+    /* Otros estilos según sea necesario */
+}

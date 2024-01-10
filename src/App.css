@@ -1,3 +1,8 @@
+*{
+  font-family: "Tw Cen MT", sans-serif;
+  /* font-family: "Nunito", sans-serif; */
+}
+
 .App {
   text-align: center;
 }
