@@ -7,6 +7,8 @@
     height: 5rem;
     max-height: 5rem;
     z-index: 1000;
+    border-bottom: 2px solid #ddd; /* Color del borde inferior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar un efecto 3D */
 }
 
 .navigation {
@@ -14,15 +16,26 @@
     align-items: center !important;
 }
 
+.items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .itemNav {
+    margin: 0 10px;
     text-decoration: none;
     list-style-type: none;
-    
     z-index: 1000;
 }
 
+.bars{
+    width: 20px;
+    height: 20px;
+}
+
 .itemNavText {
-    
+
     z-index: 1000;
     font-size: 13px;
     letter-spacing: 1px;
@@ -39,16 +52,20 @@
     color: #000;
 }
 
+.navContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
 
 a {
     text-decoration: none;
-    
+
     z-index: 1000;
 }
 
 .logo {
     color: #3c4858 !important;
-
     z-index: 1000;
     font-family: "Nunito", sans-serif;
     font-weight: 700;
@@ -56,4 +73,43 @@ a {
     padding: 3px 0;
     letter-spacing: 1px;
     line-height: 68px;
+}
+
+.logoMobile {
+    display: none;
+}
+
+.itemsMobile{
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .logo {
+        display: none;
+        /* Oculta el elemento con la clase "logo" en pantallas de tamaño celular */
+    }
+
+    .items{
+        display: none;
+    }
+
+    .logoMobile {
+        display: block;
+        color: #3c4858 !important;
+        z-index: 1000;
+        font-family: "Nunito", sans-serif;
+        font-weight: 700;
+        font-size: 24px;
+        padding: 3px 0;
+        letter-spacing: 1px;
+        line-height: 68px;
+    }
+
+    .itemsMobile{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+
+
 }

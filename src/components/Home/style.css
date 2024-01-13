@@ -90,3 +90,52 @@
     font-size: 25px;
     /* Otros estilos según sea necesario */
 }
+
+@media only screen and (max-width: 767px) {
+
+    .title {
+        max-width: none;
+        font-size: 30px;
+    }
+
+    .centeredDivContainer {
+        width: 230px;
+        top: 40%;
+    }
+
+    .centeredDiv {
+        height: auto;
+        padding: 1.5rem;
+        /* Estilos adicionales según sea necesario */
+    }
+
+    .subtitle {
+        color: white;
+        font-size: 22px;
+    }
+
+    .sectionTitle {
+        font-size: 35px;
+    }
+
+    .sectionSubtitle {
+        font-size: 18px;
+    }
+    
+    .sectionParagraph {
+        z-index: 2;
+        font-size: 18px;
+        /* Otros estilos según sea necesario */
+    }
+
+    .backgroundContainer {
+        position: relative;
+        height: 100vh;
+    }
+
+    .sectionContainer {
+        padding: 5rem 2rem;
+        padding-bottom: 1rem;
+    }
+
+}

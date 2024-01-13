@@ -10,8 +10,8 @@ const Nosotros = () => {
     return (
         <div className={`${styles.nosotrosContainer} sectionContainer`} id='nosotros'>
             <h3 className={`sectionTitle`}>Nosotros</h3>
-            <div className={`${styles.imagenRow}`}>
-                <div className={`${styles.containerPersona}`}>
+            <div className={`${styles.imagenRow} row`}>
+                <div className={`${styles.containerPersona} col-12 col-sm-7`}>
                     <h4 className={`${styles.subtituloImagen}`}>Director de Proyectos</h4>
                     <div className={`${styles.imagenWrapper}`}>
                         <div className={`${styles.imagenNombre}`}>
@@ -28,10 +28,7 @@ const Nosotros = () => {
                     </div>
 
                 </div>
-
-            </div>
-            <div className={`${styles.imagenRow}`}>
-                <div className={`${styles.containerPersona}`}>
+                <div className={`${styles.containerPersona} col-12 col-sm-6`}>
                     <h4 className={`${styles.subtituloImagen}`}>Responsable Relaciones Institucionales </h4>
                     <div className={`${styles.imagenWrapper}`}>
                         <div className={`${styles.imagenNombre}`}>
@@ -49,7 +46,7 @@ const Nosotros = () => {
 
                 </div>
 
-                <div className={`${styles.containerPersona}`}>
+                <div className={`${styles.containerPersona} col-12 col-sm-6`}>
                     <h4 className={`${styles.subtituloImagen}`}>Especialista en Proyectos Contables e Impositivos</h4>
                     <div className={`${styles.imagenWrapper}`}>
                         <div className={`${styles.imagenNombre}`}>
@@ -66,10 +63,7 @@ const Nosotros = () => {
                     </div>
 
                 </div>
-
-            </div>
-            <div className={`${styles.imagenRow}`}>
-                <div className={`${styles.containerPersona}`}>
+                <div className={`${styles.containerPersona} col-12 col-sm-6`}>
                     <h4 className={`${styles.subtituloImagen}`}>Especialista en Proyectos de Formación</h4>
                     <div className={`${styles.imagenWrapper}`}>
                         <div className={`${styles.imagenNombre}`}>
@@ -87,7 +81,7 @@ const Nosotros = () => {
 
                 </div>
 
-                <div className={`${styles.containerPersona}`}>
+                <div className={`${styles.containerPersona} col-12 col-sm-6`}>
                     <h4 className={`${styles.subtituloImagen}`}>Especialista en Proyectos Urbanos</h4>
                     <div className={`${styles.imagenWrapper}`}>
                         <div className={`${styles.imagenNombre}`}>
