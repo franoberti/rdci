@@ -14,7 +14,7 @@ const Home = () => {
 
         <div className="background" >
 
-          <Navbar/>
+          <Navbar />
 
           <div className="centeredDivContainer">
             <div className="centeredDiv">
@@ -31,15 +31,21 @@ const Home = () => {
       <div className="sectionContainer" id='razonDeSer'>
         <h3 className="sectionTitle">La excelencia es la razón de ser de nuestra RED</h3>
         <h4 className="sectionSubtitle">Consultoría con resultados comprobados</h4>
-        <p className="sectionParagraph">
-          <strong>RCI</strong> es un selecto grupo de profesionales expertos reconocidos
-        </p>
-        <p className="sectionParagraph">
-          por su capacidad y su compromiso inquebrantable con la calidad
-        </p>
-        <p className="sectionParagraph">
-          y seguridad en la Gestión Integral de Organizaciones.
-        </p>
+        <div className='paragraph'>
+          <p className="sectionParagraph">
+            <strong>RCI</strong> es un selecto grupo de profesionales expertos reconocidos
+          </p>
+          <p className="sectionParagraph">
+            por su capacidad y su compromiso inquebrantable con la calidad
+          </p>
+          <p className="sectionParagraph">
+            y seguridad en la Gestión Integral de Organizaciones.
+          </p>
+        </div>
+        <div className='paragraphMobile'>
+          <p><strong>RCI</strong> es un selecto grupo de profesionales expertos reconocidos por su capacidad y su compromiso inquebrantable con la calidad y seguridad en la Gestión Integral de Organizaciones.</p>
+        </div>
+
       </div>
 
       <div id='servicios'>
@@ -50,7 +56,7 @@ const Home = () => {
         <Nosotros />
       </div>
 
-      <WhatsappFlotante/>
+      <WhatsappFlotante />
 
     </>
 

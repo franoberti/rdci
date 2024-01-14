@@ -35,10 +35,14 @@
 
 .title {
     color: white;
-    font-family: "Tw Cen MT Condensed", sans-serif;
     max-width: 500px;
-    font-size: 50px;
     margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 1.5;
 }
 
 .line {
@@ -63,9 +67,11 @@
     /* Asegúrate de que el sectionContainer tenga posición relativa */
 }
 
+
 .sectionTitle {
-    font-family: "Tw Cen MT Condensed", sans-serif;
-    font-size: 65px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 600;
     margin-bottom: 20px;
     text-align: left;
     border-left: 3px solid #04c0d5;
@@ -75,6 +81,7 @@
     /* Espaciado del borde izquierdo */
     /* Alinea el título a la izquierda */
 }
+
 
 .sectionSubtitle {
     z-index: 2;
@@ -87,19 +94,28 @@
 
 .sectionParagraph {
     z-index: 2;
-    font-size: 25px;
+    font-size: 20px;
     /* Otros estilos según sea necesario */
 }
 
-@media only screen and (max-width: 767px) {
+.paragraph{
+    display: inline;
+}
 
+.paragraphMobile{
+    display: none;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 767px) {
+    
     .title {
         max-width: none;
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .centeredDivContainer {
-        width: 230px;
+        width: 350px;
         top: 40%;
     }
 
@@ -111,21 +127,23 @@
 
     .subtitle {
         color: white;
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .sectionTitle {
-        font-size: 35px;
+        font-size: 26px;
     }
 
     .sectionSubtitle {
         font-size: 18px;
     }
-    
-    .sectionParagraph {
-        z-index: 2;
-        font-size: 18px;
-        /* Otros estilos según sea necesario */
+
+    .paragraph{
+        display: none;
+    }
+
+    .paragraphMobile{
+        display: block;
     }
 
     .backgroundContainer {
