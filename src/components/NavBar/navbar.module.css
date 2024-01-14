@@ -83,7 +83,15 @@ a {
     display: none;
 }
 
+.optionsMobile{
+    display: block;
+    background-color: #ffffff;
+
+    width: 100%;
+}
+
 @media only screen and (max-width: 767px) {
+
     .logo {
         display: none;
         /* Oculta el elemento con la clase "logo" en pantallas de tamaño celular */
@@ -109,6 +117,14 @@ a {
         display: flex;
         align-items: center;
         justify-content: end;
+    }
+
+    .itemNav {
+        margin: 0 10px;
+        padding: 10px 0;
+        text-decoration: none;
+        list-style-type: none;
+        z-index: 1000;
     }
 
 
