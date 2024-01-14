@@ -14,6 +14,14 @@ const NavBar = () => {
     setVisibleNavBar(!visibleNavbar)
   }
 
+  const handleClickHome = () => {
+    // Desplázate al inicio de la página
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth' // Esto hará que el desplazamiento sea suave
+    });
+  };
+
   useEffect(() => {
     // Función de manejo de clic para el documento
     function handleDocumentClick(event) {
@@ -48,8 +56,8 @@ const NavBar = () => {
 
           <div className={`${styles.navContainer}`}>
 
-            <a className={`${styles.logo} text-primary`}>Red De Consultoría Interdisciplinaria</a>
-            <a className={`${styles.logoMobile} text-primary`}>RDCI</a>
+            <a className={`${styles.logo} text-primary`} onClick={handleClickHome}>Red De Consultoría Interdisciplinaria</a>
+            <a className={`${styles.logoMobile} text-primary`} onClick={handleClickHome}>RDCI</a>
 
             <div className={`${styles.items} `}>
               <div className={`${styles.itemNav}`}>

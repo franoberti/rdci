@@ -32,6 +32,7 @@
 .bars{
     width: 20px;
     height: 20px;
+    color: #3c4858;
 }
 
 .itemNavText {
@@ -73,6 +74,7 @@ a {
     padding: 3px 0;
     letter-spacing: 1px;
     line-height: 68px;
+    cursor: pointer;
 }
 
 .logoMobile {
@@ -86,8 +88,8 @@ a {
 .optionsMobile{
     display: block;
     background-color: #ffffff;
-
-    width: 100%;
+    border-bottom: 2px solid #ddd; /* Color del borde inferior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra para dar un efecto 3D */
 }
 
 @media only screen and (max-width: 767px) {
@@ -111,6 +113,7 @@ a {
         padding: 3px 0;
         letter-spacing: 1px;
         line-height: 68px;
+        cursor: pointer;
     }
 
     .itemsMobile{
