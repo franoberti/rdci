@@ -4,6 +4,20 @@
     background-color: #ffffff;
 }
 
+.sectionTitle {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: left;
+    border-left: 3px solid #04c0d5;
+    z-index: 2;
+    /* Agrega un borde izquierdo celeste */
+    padding-left: 10px;
+    /* Espaciado del borde izquierdo */
+    /* Alinea el título a la izquierda */
+}
+
 .containerPersona {
     display: grid;
     place-items: center;
@@ -63,14 +77,23 @@
 @media only screen and (max-width: 767px) {
 
     .nosotrosContainer {
-        padding-bottom: 1rem;
+        padding: 1rem;
+    }
+
+    .containerPersona {
+        display: grid;
+        place-items: center;
+        padding: 0;
     }
     
+    .sectionTitle {
+        font-size: 26px;
+    }
 
     .subtituloImagen {
         font-size: 20px;
         margin-bottom: 5px;
-        max-width: none;
+        max-width: 300px; 
     }
 
     .imagenRow {
@@ -79,6 +102,7 @@
 
     .imagenWrapper{
         max-height: none;
+        padding-right: 0;
     }
 
     .imagenRedonda {

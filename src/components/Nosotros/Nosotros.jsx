@@ -9,7 +9,7 @@ import styles from './nosotros.module.css'
 const Nosotros = () => {
     return (
         <div className={`${styles.nosotrosContainer} sectionContainer`} id='nosotros'>
-            <h3 className={`sectionTitle`}>Nosotros</h3>
+            <h3 className={`${styles.sectionTitle}`}>Nosotros</h3>
             <div className={`${styles.imagenRow} row`}>
                 <div className={`${styles.containerPersona} col-12 col-sm-7`}>
                     <h4 className={`${styles.subtituloImagen}`}>Director de Proyectos</h4>
