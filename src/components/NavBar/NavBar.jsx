@@ -69,6 +69,9 @@ const NavBar = () => {
               <div className={`${styles.itemNav}`}>
                 <a className={`${styles.itemNavText}`} href="#nosotros">Nosotros</a>
               </div>
+              <div className={`${styles.itemNav}`}>
+                <a className={`${styles.itemNavText}`} target="_blank" href="https://api.whatsapp.com/send?phone=+543517014260">Contacto</a>
+              </div>
             </div>
 
             <div className={`${styles.itemsMobile}`}>
@@ -91,6 +94,9 @@ const NavBar = () => {
               </div>
               <div className={`${styles.itemNav}`}>
                 <a className={`${styles.itemNavText}`} href="#nosotros">Nosotros</a>
+              </div>
+              <div className={`${styles.itemNav}`}>
+                <a className={`${styles.itemNavText}`} target="_blank" href="https://api.whatsapp.com/send?phone=+543517014260">Contacto</a>
               </div>
             </div>
             :
